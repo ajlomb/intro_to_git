@@ -1,0 +1,46 @@
+Useing git locally
+
+git init						Turns on git		
+git add filename.txt			
+	git add -A					move everything
+	git add .					move everything this directory and below
+	git add -p					has to be tracked file; 
+git commit -m "message"			message to inform what you're committing
+git diff 						spits out differences between working directory & index
+git log							lists older commits and snapshots
+
+Remote Sync
+git remote add origin <url>		
+git pull/push
+git remote -v					list all remote repositories
+
+git status - displays files which are tracked/untracked &committed/uncommitted
+cannot init a git repository in a git repository
+
+init, add, commit, push, pull, and clone
+
+HEAD				INDEX				WORKING DIRECTORY
+
+==============check out the project==================>>>>
+					<<<<===========stage tiles===========
+<<<<=====commit========
+
+git init - download tools
+xcode development tools
+
+touch .gitignore
+
+
+to download most recent additions to github:
+git clone https://github.com/ga-students/ADI_SM_1.git
+git pull
+
+mkdir hello-git
+cd hello-git
+git init
+touch readme.md
+git add readme.md
+git commmit -m "message"
+git remote add 'name' <url>
+git push 'name' master
+
